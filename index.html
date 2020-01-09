@@ -1,12 +1,83 @@
 <!DOCTYPE html>
 <html lang=eng>
+
 <head>
-<title>Hello World</title>
-<meta charset="utf-8">
-<link rel="stylesheet" href="stylesheet.css">
+<title>First Webside</title> <!--this is displayed in the shortcuts-->
+<meta charset="utf-8"> <!--this enables all characters and symbols of any language-->
+<meta name="my name" author="Thomas Hager"> <!--this is used to make searchfunction more efficient, name is simply there to descripe what the next command does-->
+<meta name="description" content="This page is a learning in progress to learn all basic commands">
+<link rel="stylesheet" href="stylesheet.css"> <!--the rel has to be named stylesheet always, links css to html-->
+<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon"> <!-- this makes a symbol appear in shortcuts-->
 </head>
+
 <body>
-<h1>Webside, und weida?</h1>
-<p>This is a simple test to see if this might actually work</p>
+<h1><strong>My first Webside</strong>, und weida?</h1>
+<p>This is a <strong>simple</strong> test to see if this might actually work</p>
+<div></div>
+<p>This webside shows me how to
+<a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started" title="This site shows me how to code" target="_blank" >code</a>
+<!--linking to a new page, title shows when hovering over link, ancor has to be closed-->
+<div></div>
+
+<p>Alternatively just click <!--hyperlink embedded in form of a picture-->
+<div></div>
+    <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started">
+    <img src="images/firefox-icon.png"><div></div>here</a></p>
+<div></div> <!--division, new line-->
+
+<img src="images/firefox-icon.png"> <!--image added, position to be changed in css-->
+<div></div>
+
+<input type="text" disabled="disabled">
+<!--this shouldn't be editable, it's a box though-->
+<div></div>
+<input type="text">
+<!--this should be editable-->
+
+<h2>The Crushing Bore</h2>
+<p>By Chris Mills</p>
+<h3> Chapter 1: The dark night</h3>
+<p>It was a dark night. Somewhere, an owl hooted. The rain lashed down on the ...
+Our protagonist could not so much as a whisper out of the shadowy figure ...</p>
+<p>Several more hours had passed, when all of a sudden the specter sat bolt upright and exclaimed, "Please have mercy on my soul!"</p>
+<div></div>
+<p>if you liked this short text, write me a letter <a href="#mailing_adress">here</a></p>
+<h2>My shopping list for today:</h2>
+<ul>
+    <li>milk</li>
+    <li>eggs</li>
+    <li>bread</li>
+    <li>butter</li>    
+</ul> <!--unordered list-->
+
+<h2>My way home, watch out for sequencing</h2 >
+<ol>
+    <li>enter the metro</li>
+    <li>go off at schottentor</li>
+    <li>enter tram 43 or 44</li>
+    <li>leave at Bründlbadgasse</li>
+    <li>Watch out for the following people:
+        <ul>
+            <li>Lisa</li>
+            <li>Bert</li>
+            <li>Karl</li>
+        </ul> <!--list within a list-->
+    </li>
+</ol>
+<div></div>
+<p>This sentence should <em>highlight</em> the <strong>most</strong> used commands to edit text</p>
+
+<h2 id="mailing_adress"><a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started" title="actually not my contact" target="_blank">Contact</a></h2> <!-- this sets up a link called mailing adress that the page above is referring to using a link-->
+<!--to link to a seperate document/sheet use href="xyz.html#contacts-->
+<div></div>
+
+<a href="https://download.mozilla.org/?product=firefox-latest-ssl&os=win64&lang=en-US"
+   download="firefox-latest-64bit-installer.exe">
+  Download Latest Firefox for Windows (64-bit) (English, US)
+</a> <!-- this shows how you can integrate downloads on your webpage-->
+
+
+
+    <src javascript.js></src> <!-- javascript should be added at last when whole page has been read-->
 </body>
 </html>
